@@ -21,7 +21,10 @@ background-color: black;
 background-attachment:fixed;
 }
 nav{
-background-color: white;
+background-color: cadetblue;
+padding: 10px;
+border-radius: 30px;
+border-style:solid;
 }
 nav a{
 text-align: left;
@@ -56,6 +59,22 @@ aside:hover{
 .coockies{
     font-size: larger;
     padding: 20px;
+}
+footer{
+    text-align:justify;
+}
+#search{
+    text-align: center;
+    padding: 7px;
+}
+div{
+    text-align:right ;
+    padding: 2px 1px;
+    
+}
+#pic{
+    text-align: center;
+    padding: 10px;
 }
 @media all and (min-width: 491px) and (max-width: 600px){
     header h1,nav{
