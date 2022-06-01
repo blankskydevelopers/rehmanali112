@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    
+}
+body {
+margin: 0px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header h1 {
+text-align: center;
+font-size: 60px;
+color: white;
+}
+
+header {
+background-image: url(headimg.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+padding: 40px;
+background-color: black;
+background-attachment:fixed;
+}
+nav{
+background-color: white;
+}
+nav a{
+text-align: left;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+}
+nav a:hover{
+    background-color: lightskyblue;
+}
+body footer{
+    background-color: rgb(111, 146, 182);
+} 
+body{
+    background-color: white;
+}
+body main section form.special{
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+}
+aside{
+    text-align: left;
+    padding: 10px;
+    color: blue;
+}
+aside:hover{
+    width: 20%;
+    color: black;
+    font-weight: 900;
+}
+.coockies{
+    font-size: larger;
+    padding: 20px;
+}
+@media all and (min-width: 491px) and (max-width: 600px){
+    header h1,nav{
+        padding: 10px;
+        font-size: 20px;
+    }
+    nav{
+        font-size: 20%;
+    }
+}
+@media all and (min-width: 400px) and (max-width: 490px){
+header h1,nav{
+        padding: 5px;
+        font-size: 20px;
+    }
+}
+@media all and (min-width: 350px) and (max-width: 400px){
+header h1,nav{
+        padding: 5px;
+        font-size: 15px;
+    }
+}
+@media all and (min-width: 295px) and (max-width: 350px){
+header h1,nav{
+        padding: 5px;
+        font-size: 12px;
+    }
+    nav a{
+        font-size: 10px;
+    }
+}
+@media all and (min-width: 201px) and (max-width: 295px){
+header h1,nav{
+        padding: 5px;
+        font-size: 13px;
+    }
+    nav a{
+        font-size: 8px;
+    }
+}
+@media all and (max-width: 201px){
+header h1,nav{
+        padding: 5px;
+        font-size: 13px;
+    }
+    nav a{
+        font-size: 9px;
+    }
+}
+@media all and (max-width: 141px){
+header h1,nav{
+        padding: 5px;
+        font-size: 13px;
+    }
+    nav a{
+        font-size: 7px;
+    }
+}
